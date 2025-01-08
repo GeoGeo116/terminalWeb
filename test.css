@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    font-family: monospace;
+    color: greenyellow;
+    text-shadow: rgba(172, 255, 47, 0.87) 0 0 5px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    color: greenyellow;
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+    width: auto;
+}
+
+input{
+    background-color: black;
+    color: greenyellow;
+    font-family: monospace;
+    text-shadow: rgba(172, 255, 47, 0.87) 0 0 5px;
+    border: none;
+    margin-left: 10px;
+    font-size: 20px;
+    width: 600px;
+    font-weight: bold;
+}
+
+input:focus{
+    outline: none;
+}
+
+#terminal{
+    display: inline-flex;
+    font-size: 20px;
+}
+
+main{
+    margin-left: 20px;
+}
+
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
